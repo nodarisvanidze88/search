@@ -1,55 +1,56 @@
 body{
-    background-color: rgb(31, 51, 25);
+    background-color: #202124;
 }
-
 .t {
     display: inline;
     margin-left: 1%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 a {
     color: white;
     text-underline-position: unset;
 }
-
 a:link {
     text-decoration: none;
 }
-
 a:visited {
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
-.content {
-    display: block;
-}
-
 label{
     display: inline-block;
-    width: 300px;
+    width: 200px;
     text-align: left;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 .inp {
-    width: 20%;
     height: 20px;
-}
-form {
-    margin-top: 70px;
-    margin-left: 20px;
+    border-radius: 5px;   
 }
 #but {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
+    width: 150px;
+    height: 26px;
+    font-size: large;  
+
+}
+
+.head {
+    padding: 2%;
+    margin-top: 1%;
+    text-align: right;
     
 }
-#butt{
-    margin-left: 2;
+.content {
+    margin-top: 2%;
+    text-align: center;
+}
+.logo {
+    text-align: center;
+    margin-top: 6%;
 }
