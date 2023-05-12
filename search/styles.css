@@ -29,7 +29,10 @@ label{
 }
 .inp {
     height: 20px;
-    border-radius: 5px;   
+    border-radius: 5px;
+    box-sizing: content-box;
+    
+       
 }
 #but {
     font-family: Arial, Helvetica, sans-serif;
