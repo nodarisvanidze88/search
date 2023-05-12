@@ -9,37 +9,33 @@
 </head>
 <body>
     
-    <div class="head">
-        <p class="t"><a href="index.html">Google Search</a></p>
-        <p class = "t"><a href="image_search.html">Google Image Search</a></p>
-    
+    <div class="head"> 
+        <a href="index.html">Google Search</a>
+        <a href="image_search.html">Image Search</a>
+        <div id="advance_logo">
+            <img src="logo.png" alt="logo" id = "advance_logo">
+        </div>
     </div>
-    <div class ="logo">
-        <img src="logo.png" alt="logo">
-    </div>
-    <div class="content">
-        <form action="https://www.google.com/search">
+        <form action="https://www.google.com/search" class="frm">
                 <div class="fill">  
                     <label for="inp" class="inp_lab">All these words:</label>
-                    <input type="text" name="as_q" id="in" class="inp">
+                    <input type="text" name="as_q" id="in1" class="inp">
                 </div>
                 <div class="fill">          
                     <label for="inp" class="inp_lab">This exact word or phrase:</label>
-                    <input type="text" name="as_epq" id="in1" class="inp">
+                    <input type="text" name="as_epq" id="in2" class="inp">
                 </div>
                 <div class="fill">  
                     <label for="inp" class="inp_lab">Any of these words:</label>
-                    <input type="text" name="as_oq" id="in2" class="inp">
+                    <input type="text" name="as_oq" id="in3" class="inp">
                 </div>
                 <div class="fill">  
                     <label for="inp" class="inp_lab">None of these words:</label>
-                    <input type="text" name="as_eq" id="in3" class="inp">
+                    <input type="text" name="as_eq" id="in4" class="inp">
                 </div>
-            <div id="butt">
-            <input type="submit" value="Google Search" id="but">
-        </div>
+            <div id = "but_advance_div">
+            <input type="submit" value="Google Search" id="but_advance">
+            </div>
         </form>
-    </div>
-    
 </body>
 </html>
